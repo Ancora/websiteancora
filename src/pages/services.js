@@ -1,25 +1,12 @@
 import React from "react"
-import { Link } from "gatsby"
+
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 const ServicesPage = () => (
-  <>
+  <Layout>
+    <SEO title="Services" />
     <h1>Nossos Serviços</h1>
-    <ul>
-      <li>
-        <Link to="/">Home</Link>
-      </li>
-      <li>
-        <Link to="/services" activeStyle={{ color: "red" }}>
-          Nossos Serviços
-        </Link>
-      </li>
-      <li>
-        <Link to="/cybersul">ERP Solution 3</Link>
-      </li>
-      <li>
-        <Link to="/contact">Fale Conosco</Link>
-      </li>
-    </ul>
-  </>
+  </Layout>
 )
 export default ServicesPage

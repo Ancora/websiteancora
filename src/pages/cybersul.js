@@ -1,26 +1,13 @@
 import React from "react"
-import { Link } from "gatsby"
+
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 const CybersulPage = () => (
-  <>
+  <Layout>
+    <SEO title="Cybersul" />
     <h1>CyberSul</h1>
-    <ul>
-      <li>
-        <Link to="/">Home</Link>
-      </li>
-      <li>
-        <Link to="/services">Nossos Serviços</Link>
-      </li>
-      <li>
-        <Link to="/cybersul" activeStyle={{ color: "red" }}>
-          ERP Solution 3
-        </Link>
-      </li>
-      <li>
-        <Link to="/contact">Fale Conosco</Link>
-      </li>
-    </ul>
-  </>
+  </Layout>
 )
 
 export default CybersulPage
