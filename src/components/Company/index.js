@@ -2,6 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Logo from "../Logo"
+import * as S from "./styled"
 
 const Company = () => {
   const {
@@ -23,12 +24,19 @@ const Company = () => {
   )
 
   return (
-    <div className="Company-wrapper">
-      <Logo />
-      <h1>{author}</h1>
-      <h3>{city}</h3>
-      <p>{description}</p>
-    </div>
+    <S.CompanyWrapper>
+      <S.CompanyLink>
+        <Logo />
+      </S.CompanyLink>
+      <S.CompanyLink>
+        <S.CompanyAuthor>
+          {author}
+          <S.CompanyCity>{city}</S.CompanyCity>
+        </S.CompanyAuthor>
+      </S.CompanyLink>
+
+      <S.CompanyDescription>{description}</S.CompanyDescription>
+    </S.CompanyWrapper>
   )
 }
 
