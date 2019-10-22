@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import * as S from "./styled"
 
-const Bg = () => {
+const BgImage = () => {
   const { bgImage } = useStaticQuery(
     graphql`
       query {
@@ -21,4 +21,4 @@ const Bg = () => {
   return <S.BgWrapper fluid={bgImage.childImageSharp.fluid} />
 }
 
-export default Bg
+export default BgImage

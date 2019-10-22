@@ -54,16 +54,31 @@ const GlobalStyles = createGlobalStyle`
 
   body {
     /* Linhas adicionadas */
-    background: #33ccff;
+    /* background-image: -moz-linear-gradient(70deg, navy 35%, black);
+    background-image: -webkit-linear-gradient(70deg, navy 35%, black);
+    background-image: -o-linear-gradient(70deg, navy 35%, black);
+    background-image: linear-gradient(70deg, navy 35%, black); */
+    background-image: -moz-radial-gradient(left center, ellipse farthest-corner, black, navy, black);
+    background-image: -webkit-radial-gradient(left center, ellipse farthest-corner, black, navy, black);
+    background-image: -o-radial-gradient(left center, ellipse farthest-corner, black, navy, black);
+    background-image: radial-gradient(left center, ellipse farthest-corner, black, navy, black);
     font-size: 100%;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     /* até aqui, o resto é padrão do autor original */
     line-height: 1;
   }
-  img {
+
+  .bg {
+    /* background-image: url('../images/fundoArcos.png'); */
+    position: absolute;
+    width: 100%
+    height: auto;
+  }
+
+  /* img {
     display: block;
   	width: 100%;
   	height: auto;
-  }
+  } */
 `
 export default GlobalStyles
