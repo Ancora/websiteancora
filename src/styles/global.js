@@ -62,6 +62,9 @@ const GlobalStyles = createGlobalStyle`
     background-image: -webkit-radial-gradient(left center, ellipse farthest-corner, black, navy, black);
     background-image: -o-radial-gradient(left center, ellipse farthest-corner, black, navy, black);
     background-image: radial-gradient(left center, ellipse farthest-corner, black, navy, black);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
     font-size: 100%;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     /* até aqui, o resto é padrão do autor original */

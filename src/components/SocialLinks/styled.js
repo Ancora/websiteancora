@@ -12,7 +12,15 @@ export const SocialLinksList = styled.ul`
   list-style: none;
 `
 
-export const SocialLinksItem = styled.li``
+export const SocialLinksItem = styled.li`
+  color: #fffacd;
+  display: block;
+  padding: 1.1rem;
+
+  &:hover {
+    color: #1fa1f2;
+  }
+`
 
 export const SocialLinksLink = styled.a`
   color: #fffacd;
@@ -26,6 +34,6 @@ export const SocialLinksLink = styled.a`
 
 export const IconWrapper = styled.div`
   fill: #fffacd;
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
 `

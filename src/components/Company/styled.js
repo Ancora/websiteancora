@@ -5,6 +5,7 @@ export const CompanyWrapper = styled.section`
   color: #fffacd;
   display: flex;
   flex-direction: column;
+  margin-bottom: 5rem;
 `
 
 export const CompanyLink = styled(Link)`
