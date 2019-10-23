@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Âncora - Soluções em TI`,
-    description: `Desenvolvimento de websites para pequenas empresas e profissionais autônomos, consultoria e treinamento de usuários em ERP de terceiros, elaboração de manuais operacionais e suporte técnico/operacional remoto ou presencial`,
+    description: `Analista de Sistemas - WebDesigner - Suporte Técnico em ERP`,
     author: `Anderson N C Rocha`,
     city: `Maceió - AL`,
   },

@@ -54,14 +54,10 @@ const GlobalStyles = createGlobalStyle`
 
   body {
     /* Linhas adicionadas */
-    /* background-image: -moz-linear-gradient(70deg, navy 35%, black);
-    background-image: -webkit-linear-gradient(70deg, navy 35%, black);
-    background-image: -o-linear-gradient(70deg, navy 35%, black);
-    background-image: linear-gradient(70deg, navy 35%, black); */
-    background-image: -moz-radial-gradient(left center, ellipse farthest-corner, black, navy, black);
-    background-image: -webkit-radial-gradient(left center, ellipse farthest-corner, black, navy, black);
-    background-image: -o-radial-gradient(left center, ellipse farthest-corner, black, navy, black);
-    background-image: radial-gradient(left center, ellipse farthest-corner, black, navy, black);
+    background-image: -moz-radial-gradient(bottom left, ellipse farthest-corner, black, blue, #000088, blue, black);
+    background-image: -webkit-radial-gradient(bottom left, ellipse farthest-corner, black, blue, #000088, blue, black);
+    background-image: -o-radial-gradient(bottom left, ellipse farthest-corner, black, blue, #000088, blue, black);
+    background-image: radial-gradient(bottom left, ellipse farthest-corner, black, blue, #000088, blue, black);
     background-repeat: no-repeat;
     width: 100%;
     height: auto;
@@ -71,17 +67,11 @@ const GlobalStyles = createGlobalStyle`
     line-height: 1;
   }
 
-  .bg {
-    /* background-image: url('../images/fundoArcos.png'); */
-    position: absolute;
-    width: 100%
-    height: auto;
-  }
 
-  /* img {
+  img {
     display: block;
   	width: 100%;
   	height: auto;
-  } */
+  }
 `
 export default GlobalStyles
