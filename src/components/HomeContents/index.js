@@ -26,14 +26,14 @@ const HomeContents = () => (
         Anderson Rocha é seu criador: com graduação em Análise e Desenvolvimento
         de Sistemas pela UNCISAL, participa, constantemente, de cursos e
         treinamentos na área de Tecnologia da Informação, além de possuir
-        conhecimentos e habilidades em gestão de empresas.
+        conhecimentos e habilidades em gestão de pessoas.
       </p>
     </S.HomeContentDescription>
-    <S.HomeContentCards>
-      <S.HomeContentCardsList>
-        <S.HomeContentCardsItem></S.HomeContentCardsItem>
-      </S.HomeContentCardsList>
-    </S.HomeContentCards>
+    <S.HomeContentLinks>
+      <S.HomeContentLinksList>
+        <S.HomeContentLinksItem></S.HomeContentLinksItem>
+      </S.HomeContentLinksList>
+    </S.HomeContentLinks>
   </S.HomeContentWrapper>
 )
 

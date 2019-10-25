@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { Link } from "gatsby"
 
 export const HomeContentWrapper = styled.section`
   color: #fffacd;
@@ -24,13 +25,19 @@ export const HomeContentDescription = styled.div`
   line-height: 1.5;
 `
 
-export const HomeContentCards = styled.nav``
+export const HomeContentLinks = styled(Link)`
+  display: flex;
+  text-decoration: none;
+  background: #000;
+  width: 100%;
+  height: auto;
+`
 
-export const HomeContentCardsList = styled.ul`
+export const HomeContentLinksList = styled.ul`
   align-items: center;
   display: row;
   justify-content: space-around;
   list-style: none;
 `
 
-export const HomeContentCardsItem = styled.li``
+export const HomeContentLinksItem = styled.li``
