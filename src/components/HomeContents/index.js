@@ -1,5 +1,6 @@
 import React from "react"
 
+import Logo from "../Logo"
 import * as S from "./styled"
 
 const HomeContents = () => (
@@ -8,7 +9,7 @@ const HomeContents = () => (
     <S.HomeContentDescription>
       <p>
         Empresa criada em 2010 com o propósito inicial de fornecer consultoria e
-        treinamento de usuários em ERP de terceiros (Winthor, Jetdata e
+        treinamento para usuários em ERP de terceiros (Winthor, Jetdata e
         Protheus/Totvs), elaboração de manuais operacionais e suporte técnico,
         remoto ou presencial.
       </p>
@@ -31,7 +32,11 @@ const HomeContents = () => (
     </S.HomeContentDescription>
     <S.HomeContentLinks>
       <S.HomeContentLinksList>
-        <S.HomeContentLinksItem></S.HomeContentLinksItem>
+        <S.HomeContentLinksItem>
+          <S.HomeContentLinksImage>
+            <Logo />
+          </S.HomeContentLinksImage>
+        </S.HomeContentLinksItem>
       </S.HomeContentLinksList>
     </S.HomeContentLinks>
   </S.HomeContentWrapper>

@@ -33,6 +33,12 @@ export const HomeContentLinks = styled(Link)`
   height: auto;
 `
 
+export const HomeContentLinksImage = styled.div`
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+`
+
 export const HomeContentLinksList = styled.ul`
   align-items: center;
   display: row;
